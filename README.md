@@ -23,4 +23,4 @@ Pronto, agora você pode buscar ofertas sem cansar os olhos 😎
 
 ## Licensa
 
-[Creative Commons Attribution - CC-BY 3.0](https://creativecommons.org/licenses/by/3.0/br/)
+[Creative Commons Attribution - CC-BY 4.0](https://creativecommons.org/licenses/by/4.0)
