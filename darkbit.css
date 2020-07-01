@@ -7,6 +7,7 @@
 /* General */
 :root {
   --promobit-yellow: #faba01;
+  --promobit-yellow-dimmed: #faba014a;
   --background-color: #303030;
   --subheader-color: #424242;
   --divider-color: rgba(255, 255, 255, 0.12);
@@ -27,7 +28,7 @@
   --offer-card-color: var(--subheader-color);
   --offer-card-bottom-color: var(--divider-color);
   --forum-thread-container-color: #4f4f4f;
-  --forum-fixed-thread-color: --offer-card-color;
+  --forum-fixed-thread-color: var(--offer-card-color);
 }
 
 body {
@@ -577,7 +578,7 @@ body {
 }
 
 .prs-page_heading {
-  color: var(--text-secondary-color);
+  color: var(--text-secondary-color) !important;
 }
 
 .user-profile-activity__content {
@@ -619,6 +620,112 @@ body {
 
 .timeago {
   color: var(--text-tertiary-color);
+}
+
+/* Coupons */
+.coupons-carousel,
+.coupons-search {
+  background-color: var(--offer-card-color);
+}
+
+.coupons-search__subtitle {
+  margin-bottom: 5px;
+  color: var(--text-tertiary-color);
+}
+
+.coupons-search .index-search input {
+  background-color: var(--search-input-color);
+  border-color: var(--divider-color);
+  color: var(--text-secondary-color);
+}
+
+.coupons-dividerLine {
+  background-color: var(--divider-color);
+}
+
+.coupons-carousel h1,
+.coupons-carousel h2 {
+  color: var(--text-secondary-color);
+}
+
+.carousel-container .slick-next,
+.carousel-container .slick-prev {
+  background-color: var(--forum-thread-container-color);
+  border: 1px solid var(--divider-color);
+  transition: all 300ms ease;
+}
+
+.carousel-container .slick-next:hover,
+.carousel-container .slick-prev:hover,
+.carousel-container .slick-next:focus,
+.carousel-container .slick-prev:focus {
+  background-color: var(--forum-fixed-thread-color);
+}
+
+.carousel-container .slick-prev:before,
+.carousel-container .slick-next:before,
+.carousel-container .slick-prev:not(.slick-disabled):hover:before,
+.carousel-container .slick-next:not(.slick-disabled):hover:before {
+  color: var(--promobit-yellow);
+}
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  color: var(--promobit-yellow-dimmed);
+}
+
+.carousel-container .coupon_store-item {
+  background-color: var(--offer-card-color);
+  border-color: var(--divider-color);
+  color: var(--text-secondary-color);
+}
+
+.carousel-container .coupon_store-item .image__container {
+  background-color: var(--offer-card-bottom-color);
+  border-bottom-color: var(--divider-color);
+}
+
+.carousel-container .coupon_store-item .image__container img {
+  border-color: var(--divider-color);
+}
+
+.carousel-container .coupon_store-item h3 {
+  color: var(--text-secondary-color);
+}
+
+.carousel-container .item p,
+.carousel-container .coupon_store-item .no-coupons {
+  color: var(--text-tertiary-color);
+}
+
+.carousel-container .item:hover .coupon_store-item,
+.carousel-container .item:hover h3,
+.carousel-container .item:hover p {
+  border-color: var(--promobit-yellow);
+  color: var(--promobit-yellow);
+}
+
+.carousel-container .slick-dots li.slick-active button {
+  background-color: var(--promobit-yellow);
+}
+
+.carousel-container .slick-dots li.slick-active button:hover {
+  background-color: var(--promobit-yellow-dimmed);
+}
+
+.coupons-carousel h1,
+.coupons-carousel h2 {
+  border-bottom-color: var(--divider-color);
+}
+
+.last-added h2 a.small,
+.side-intro .btn-saiba_mais {
+  color: var(--promobit-yellow);
+}
+
+.last-added h2 a.small:hover,
+.side-intro .btn-saiba_mais:hover {
+  color: var(--promobit-yellow-dimmed);
 }
 
 /* Footer */
@@ -825,6 +932,11 @@ body {
 }
 
 .sidebar__rank-dropdown {
+  color: var(--promobit-yellow);
+}
+
+.side-intro h1 {
+  border-left-color: var(--promobit-yellow);
   color: var(--promobit-yellow);
 }
 
