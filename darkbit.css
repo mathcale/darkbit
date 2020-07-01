@@ -1147,6 +1147,29 @@ body {
   background-color: var(--forum-thread-container-color);
 }
 
+/* Blog */
+/* FIXME: implement actual blog styles */
+.single-post .pr-of-comments .pr-of-comment-block .pr-of-comment-textbox p,
+.single-post .pr-of-comments__titles-bottom, .pr-of-comments__user-name,
+.single .timeago {
+  color: initial;
+}
+
+.single .pr-of-comments .pr-of-comment-box textarea {
+  background: initial !important;
+  border-color: var(--divider-color);
+}
+
+.home.page-template-default .prs-box-topoffers .pr-cs-item .title,
+.home.page-template-default .prs-box-topoffers .pr-cs-item .offer-likes,
+.home.page-template-default .sidebar__last-coupons .last-coupon__desc strong {
+  color: initial;
+}
+
+.home.page-template-default .sidebar__last-coupons .last-coupon__desc button {
+  background: var(--promobit-yellow);
+}
+
 /* Other pages */
 .breadcrumb__nav {
   color: var(--text-tertiary-color);
