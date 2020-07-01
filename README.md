@@ -1,4 +1,8 @@
 <p align="center">
+  <p align="center">
+    <img src="darkbit.png" />
+  </p>
+
   <h1 align="center">Darkbit - Dark Mode para o Promobit</h1>
   <p align="center">Apenas uma implementação de dark mode para a comunidade de promoções <a href="https://promobit.com.br">Promobit</a></p>
   
@@ -24,3 +28,5 @@ Pronto, agora você pode buscar ofertas sem cansar os olhos 😎
 ## Licensa
 
 [Creative Commons Attribution - CC-BY 4.0](https://creativecommons.org/licenses/by/4.0)
+
+Criado com ❤️ e 💸 por [Matheus Calegaro](https://matheus.me)
