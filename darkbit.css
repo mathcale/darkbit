@@ -576,6 +576,51 @@ body {
   color: var(--text-secondary-color);
 }
 
+.prs-page_heading {
+  color: var(--text-secondary-color);
+}
+
+.user-profile-activity__content {
+  background-color: var(--offer-card-color) !important;
+}
+
+.tabbed-nav {
+  border-bottom-color: var(--divider-color);
+}
+
+.tabbed-nav__tab {
+  background-color: var(--subheader-color) !important;
+  color: var(--text-secondary-color);
+}
+
+.tabbed-nav__tab--active {
+  color: var(--promobit-yellow);
+}
+
+.tabbed-nav__tab--active:after,
+.tabbed-nav__tab:not(.tabbed-nav__tab--active):hover:after {
+  background-color: var(--promobit-yellow);
+}
+
+.user-profile-activity__comment-box {
+  background-color: var(--offer-card-bottom-color);
+  border-color: var(--divider-color);
+  color: var(--text-secondary-color);
+}
+
+.user-profile-activity__comment-box:hover {
+  background-color: var(--divider-color);
+}
+
+.user-profile-activity__from-text,
+.user-profile-activity__from-text:hover {
+  color: var(--promobit-yellow);
+}
+
+.timeago {
+  color: var(--text-tertiary-color);
+}
+
 /* Footer */
 .pr-footer {
   background: var(--background-color);
@@ -777,6 +822,10 @@ body {
 
 .ranking-list__item {
   border-bottom-color: var(--divider-color);
+}
+
+.sidebar__rank-dropdown {
+  color: var(--promobit-yellow);
 }
 
 /* Other pages */
