@@ -1,5 +1,5 @@
 @-moz-document domain("promobit.com.br") {
-/*! Darkbit - Dark mode para o Promobit v0.2.1 */
+/*! Darkbit - Dark mode para o Promobit v0.3.0 */
 /*! Repository: https://github.com/StylishThemes/GitHub-Dark    */
 /*! License:    https://creativecommons.org/licenses/by/4.0/ */
 /*! Author:     Matheus Calegaro <hello@matheus.me> */
@@ -628,12 +628,14 @@ body {
   background-color: var(--offer-card-color);
 }
 
-.coupons-search__subtitle {
+.coupons-search__subtitle,
+.index-search p {
   margin-bottom: 5px;
   color: var(--text-tertiary-color);
 }
 
-.coupons-search .index-search input {
+.coupons-search .index-search input,
+.coupons-carousel .index-search input {
   background-color: var(--search-input-color);
   border-color: var(--divider-color);
   color: var(--text-secondary-color);
@@ -725,6 +727,135 @@ body {
 
 .last-added h2 a.small:hover,
 .side-intro .btn-saiba_mais:hover {
+  color: var(--promobit-yellow-dimmed);
+}
+
+.last-added .last-added-container {
+  background-color: var(--offer-card-bottom-color);
+}
+
+.last-added .last-added-item--b {
+  border-color: var(--divider-color);
+  color: var(--text-secondary-color);
+}
+
+.border-gray-3 {
+  border-color: var(--divider-color);
+}
+
+.last-added .last-added-item--b .img-link {
+  color: var(--text-tertiary-color);
+}
+
+.last-added .last-added-item--b .coupon-title {
+  color: var(--promobit-yellow);
+}
+
+.last-added .coupons-more {
+  color: var(--promobit-yellow);
+}
+
+.last-added .coupons-more:hover {
+  color: var(--promobit-yellow-dimmed);
+}
+
+.coupons-carousel .index-search button {
+  background-color: #A78B5B;
+  border-color: #A78B5B;
+}
+
+.all-stores .stores-nav {
+  background-color: var(--forum-fixed-thread-color);
+  border-color: var(--divider-color);
+  color: var(--promobit-yellow);
+}
+
+.coupon-index {
+  color: var(--promobit-yellow);
+}
+
+.coupon-index.active,
+.coupon-index:not(.inactive):hover {
+  background-color: var(--promobit-yellow);
+  color: #333;
+}
+
+.index__container .index-letter {
+  color: var(--text-tertiary-color);
+}
+
+.index__container .list-item.act a {
+  color: var(--promobit-yellow);
+}
+
+.index__container .list-item.act a .count {
+  border-color: var(--promobit-yellow);
+}
+
+.index__container .list-item.act:hover a {
+  color: var(--promobit-yellow-dimmed);
+}
+
+.index__container .list-item.act:hover .count {
+  border-color: var(--promobit-yellow-dimmed);
+}
+
+.prs-text-content h2 {
+  border-bottom-color: var(--divider-color);
+  color: var(--text-secondary-color);
+}
+
+.prs-text-content h3,
+.prs-text-content h4 {
+  border-bottom-color: var(--divider-color);
+  color: var(--text-tertiary-color);
+}
+
+.prs-text-content p {
+  color: var(--text-tertiary-color);
+}
+
+.prs-text-content a {
+  color: var(--promobit-yellow);
+}
+
+.prs-text-content a:hover {
+  color: var(--promobit-yellow);
+}
+
+.pr-ccode .seocoupon-title,
+.pr-ccode h1 {
+  color: var(--text-secondary-color);
+}
+
+.coupon-card {
+  box-shadow: none;
+  color: var(--text-tertiary-color);
+}
+
+.coupon-card__main {
+  background-color: var(--forum-fixed-thread-color);
+}
+
+.coupon-card__divider-edge,
+.coupon-card__divider-circle {
+  background-color: var(--divider-color);
+}
+
+.coupon-card__footer {
+  background-color: var(--forum-thread-container-color);
+}
+
+.pr-ccode .coupon-title,
+.pr-tl-coupon__title {
+  color: var(--text-secondary-color);
+}
+
+.text-btn {
+  color: var(--promobit-yellow);
+}
+
+.text-btn:hover {
   color: var(--promobit-yellow-dimmed);
 }
 
@@ -938,6 +1069,82 @@ body {
 .side-intro h1 {
   border-left-color: var(--promobit-yellow);
   color: var(--promobit-yellow);
+}
+
+.side-intro p {
+  color: var(--text-tertiary-color);
+}
+
+.prs-horizontalNav .prs-horizontalNavContent .item {
+  border-right-color: var(--divider-color);
+  color: var(--text-secondary-color);
+}
+
+.prs-horizontalNav .prs-horizontalNavContent .item.active,
+.prs-horizontalNav .prs-horizontalNavContent .item.active:hover {
+  background-color: var(--divider-color);
+}
+
+.prs-r .side-store h4 {
+  color: var(--text-tertiary-color);
+}
+
+.prs-r .side-store p {
+  margin: 10px 20px;
+}
+
+.prs-box-topoffers .seeall-offers {
+  background-color: var(--forum-thread-container-color);
+  color: var(--text-tertiary-color);
+}
+
+.prs-sidebarLayout .prs-lastActions .small-store_list-subtitle {
+  color: var(--text-tertiary-color);
+}
+
+.prs-sidebarLayout .prs-lastActions .small-store_list-container {
+  border-top-color: var(--divider-color);
+}
+
+.prs-sidebarLayout .prs-lastActions a.small-store-item {
+  background-color: var(--divider-color);
+  border-color: var(--divider-color);
+  color: var(--text-secondary-color);
+  transition: all 300ms ease;
+}
+
+.prs-sidebarLayout .prs-lastActions a.small-store-item:hover {
+  background-color: var(--subheader-color);
+}
+
+.prs-sidebarLayout .pr-of-adds {
+  background-color: var(--subheader-color);
+}
+
+.sidebar__post-categories .feed-item {
+  border-top-color: var(--divider-color);
+  color: var(--text-secondary-color);
+}
+
+.sidebar__post-categories .feed-item strong {
+  color: var(--text-secondary-color);
+}
+
+.sidebar__post-categories .feed-item p {
+  color: var(--text-tertiary-color);
+}
+
+.pr-of-top-users .pr-of-top-users-box a .item {
+  border-bottom-color: var(--divider-color);
+}
+
+.pr-of-top-users .pr-of-top-users-box a .name {
+  color: var(--text-secondary-color);
+}
+
+.pr-of-top-users .pr-of-top-users-box a:hover,
+.pr-of-top-users .pr-of-top-users-box a .item.darker {
+  background-color: var(--forum-thread-container-color);
 }
 
 /* Other pages */
