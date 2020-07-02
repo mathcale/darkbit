@@ -6,7 +6,7 @@
 
   <h1 align="center">Darkbit - Dark Mode para o Promobit</h1>
   <p align="center">Apenas uma implementação de dark mode para a comunidade de promoções <a href="https://promobit.com.br">Promobit</a></p>
-  
+
   <p align="center">
     <img src="https://userstyles.org/style_screenshots/185794_after.png" width="500" />
   </p>
@@ -26,7 +26,7 @@ Feito isso, acesse a [página oficial deste projeto no UserStyles.org](https://u
 
 Pronto, agora você pode buscar ofertas sem cansar os olhos 😎
 
-## Licensa
+## Licença
 
 [Creative Commons Attribution - CC-BY 4.0](https://creativecommons.org/licenses/by/4.0)
 
