@@ -1,4 +1,4 @@
-/*! Darkbit - Dark mode para o Promobit v0.3.0 */
+/*! Darkbit - Dark mode para o Promobit v0.3.1 */
 /*! Repository: https://github.com/mathcale/darkbit */
 /*! License:    https://creativecommons.org/licenses/by/4.0/ */
 /*! Author:     Matheus Calegaro <hello@matheus.me> */
@@ -1150,7 +1150,8 @@
   /* Blog */
   /* FIXME: implement actual blog styles */
   .single-post .pr-of-comments .pr-of-comment-block .pr-of-comment-textbox p,
-  .single-post .pr-of-comments__titles-bottom, .pr-of-comments__user-name,
+  .single-post .pr-of-comments__titles-bottom,
+  .single .pr-of-comments__user-name,
   .single .timeago {
     color: initial;
   }
